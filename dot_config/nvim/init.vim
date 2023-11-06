@@ -46,6 +46,9 @@ set shiftwidth=2
 set expandtab
 syntax on
 
+" Zathura support for VimTex
+let g:vimtext_view_method = 'zathura'
+
 lua <<EOF
   -- Set up nvim-cmp.
   local cmp = require'cmp'
