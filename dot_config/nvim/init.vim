@@ -47,7 +47,9 @@ set expandtab
 syntax on
 
 " Zathura support for VimTex
-let g:vimtext_view_method = 'zathura'
+let g:tex_flavor='latex'
+let g:vimtex_view_method='general'
+let g:vimtex_quickfix_mode=0
 
 lua <<EOF
   -- Set up nvim-cmp.
