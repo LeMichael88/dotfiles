@@ -135,3 +135,5 @@ export EDITOR=nvim
 export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
 export NODE_OPTIONS=--openssl-legacy-provider
 
+# WSL Config
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
