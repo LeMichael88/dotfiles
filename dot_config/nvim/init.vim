@@ -125,17 +125,13 @@ lua <<EOF
   require('lspconfig')['texlab'].setup {
     capabilities = capabilities
   }
-EOF
 
-lua << EOF
   require("trouble").setup {
     -- your configuration comes here
     -- or leave it empty to use the default settings
     -- refer to the configuration section below
   }
-EOF
 
-lua << EOF
 local signs = {
     Error = " ",
     Warning = " ",

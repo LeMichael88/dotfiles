@@ -106,10 +106,9 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias MakeAsst="cp ~/Desktop/Writing/Assignments/AssignmentLatexTemplate.tex"
+alias MakeNoteLatex="cp ~/Desktop/Writing/Notes/NotesLatexTemplate.tex"
+alias MakeNoteMD="cp ~/Desktop/Writing/Notes/NotesMarkdownTemplate.md"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -133,11 +132,6 @@ unset __conda_setup
 
 # Configuration
 export EDITOR=nvim
-
 export DBUS_SESSION_BUS_ADDRESS="unix:path=$DBUS_LAUNCHD_SESSION_BUS_SOCKET"
-
 export NODE_OPTIONS=--openssl-legacy-provider
 
-alias MakeAsst="cp ~/Desktop/Writing/Assignments/AssignmentLatexTemplate.tex"
-alias MakeNoteLatex="cp ~/Desktop/Writing/Notes/NotesLatexTemplate.tex"
-alias MakeNoteMD="cp ~/Desktop/Writing/Notes/NotesMarkdownTemplate.md"
